@@ -1,0 +1,38 @@
+body {
+    background: url(../images/1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.title {
+    font-size: 4em;
+    font-weight: 700;
+    color: black;
+}
+
+}
+.x {
+    font-size: 3em;
+    font-weight: 200;
+    color: black;
+    }
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #eee;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+
